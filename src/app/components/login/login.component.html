@@ -1,0 +1,12 @@
+<div class="login-container">
+  <form class="login-form" [formGroup]="formReg" (submit)="onSubmit()">
+    <label position="floating">Email:</label>
+    <input formControlName="email">
+
+    <label position="floating">Password:</label>
+    <input type="password" formControlName="password" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+<button class="login-button" (click)="navigateToWelcome()">Volver a Bienvenido</button>

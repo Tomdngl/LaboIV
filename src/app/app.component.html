@@ -1,7 +1,12 @@
-<div>Ejercicio 1 - Tomas Dangelo</div>
-<p>Edad 1: </p><input [(ngModel)]="edad1" /> <br>
-<p>Edad 2: </p><input [(ngModel)]="edad2" />
-<p>Promedio: {{ promedio }} </p>
-<p>Suma: {{ suma }} </p>
-<button (click)="calcular()">Calcular</button>
-<button (click)="limpiar()">Limpiar</button>
+<h1 class="title">Ejercicio 2 - Tomas Dangelo</h1>
+<router-outlet></router-outlet>
+
+<style>
+    .title {
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 48px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  </style>
